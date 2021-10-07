@@ -55,7 +55,21 @@ public class Assignment5B {
         for (int i = 0;i<rounds;i++){
             if (computer[i] == player[i])
                 System.out.println("Tied on round "+(i+1));
-            else if ()
+            else if (player[i] == 1)
+                if (computer[i] == 2)
+                    System.out.println("Computer won round "+(i+1));
+                else
+                    System.out.println("Player won round "+(i+1));
+            else if (player[i] == 2)
+                if (computer[i] == 3)
+                    System.out.println("Computer won round "+(i+1));
+                else
+                    System.out.println("Player won round "+(i+1));
+            else
+                if (computer[i] == 1)
+                    System.out.println("Computer won round "+(i+1));
+                else
+                    System.out.println("Player won round "+(i+1));
         }
 
     }
