@@ -1,6 +1,18 @@
 import java.util.Random;
 import java.util.Scanner;
 
+
+/*
+
+Class: CSE 1321L
+Section: J03
+Term: Fall 2021
+Instructor: Yamini Talluri
+Name: Walker Burns
+Lab#: Assignment5B
+
+ */
+
 public class Assignment5B {
 
     public static void main(String[] args){
